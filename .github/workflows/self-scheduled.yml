@@ -10,8 +10,8 @@ on:
     branches:
       - multi_ci_*
   repository_dispatch:
-  schedule:
-    - cron: "0 0 * * *"
+  # schedule:
+  #   - cron: "0 0 * * *"
 
 jobs:
   run_all_tests_torch_gpu:
