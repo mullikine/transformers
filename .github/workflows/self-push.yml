@@ -1,17 +1,17 @@
 name: Self-hosted runner (push)
 
-on:
-  push:
-    branches:
-      - master
-      - ci_*
-    paths:
-      - "src/**"
-      - "tests/**"
-      - ".github/**"
-      - "templates/**"
-  # pull_request:
-  repository_dispatch:
+# on:
+#   push:
+#     branches:
+#       - master
+#       - ci_*
+#     paths:
+#       - "src/**"
+#       - "tests/**"
+#       - ".github/**"
+#       - "templates/**"
+#   # pull_request:
+#   repository_dispatch:
 
 
 jobs:
